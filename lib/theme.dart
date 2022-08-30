@@ -88,6 +88,8 @@ TextTheme _textLight(TextTheme base) {
     headline4: base.headline4?.copyWith(
       color: Colors.black54,
     ),
-    subtitle1: base.subtitle1?.copyWith(color: Colors.white),
+    subtitle1: base.subtitle1?.copyWith(
+      color: Colors.white,
+    ),
   );
 }
